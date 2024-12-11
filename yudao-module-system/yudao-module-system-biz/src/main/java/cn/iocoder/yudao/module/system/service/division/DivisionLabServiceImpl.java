@@ -18,13 +18,13 @@ public class DivisionLabServiceImpl implements DivisionLabService {
     private DivisionLabMapper divisionLabMapper;
 
     @Override
-    @Cacheable(cacheNames = "divisionLabList", key = "'list'")
+//    @Cacheable(cacheNames = "divisionLabList", key = "'list'")
     public List<DivisionLabDO> getDivisionLabList() {
         return divisionLabMapper.selectList();
     }
 
     @Override
-    @Cacheable(cacheNames = "divisionLab", key = "#id")
+//    @Cacheable(cacheNames = "divisionLab", key = "#id")
     public Optional<DivisionLabDO> getDivisionLab(Long id) {
         return Optional.ofNullable(divisionLabMapper.selectById(id));
     }

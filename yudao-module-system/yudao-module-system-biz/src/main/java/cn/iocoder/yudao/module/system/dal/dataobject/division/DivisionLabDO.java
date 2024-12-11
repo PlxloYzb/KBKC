@@ -94,4 +94,20 @@ public class DivisionLabDO extends BaseDO {
 
     /** 三氧化二铬与氧化亚铁比 */
     private Double cr2o3FeoRatio;
+    
+    /** mu18等级 */
+    private Double mu18;
+    
+    /** mu60等级 */
+    private Double mu60;
+    
+    /** mu80等级 */
+    private Double mu80;
+    
+    /** mu100等级 */
+    private Double mu100;
+
+    private Double depth;
+
+    private String lithology;
 }

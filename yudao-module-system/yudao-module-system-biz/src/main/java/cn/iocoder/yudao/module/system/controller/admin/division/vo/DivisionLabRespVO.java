@@ -89,4 +89,22 @@ public class DivisionLabRespVO {
 
     @Schema(description = "三氧化二铬与氧化亚铁比", example = "3.4")
     private Double cr2o3FeoRatio;
+
+    @Schema(description = "18目", example = "3.4")
+    private Double mu18;
+
+    @Schema(description = "60目", example = "3.4")
+    private Double mu60;
+
+    @Schema(description = "80目", example = "3.4")
+    private Double mu80;
+
+    @Schema(description = "100目", example = "3.4")
+    private Double mu100;
+
+    @Schema(description = "取样深度", example = "3.4")
+    private Double depth;
+
+    @Schema(description = "岩性", example = "3.4")
+    private String lithology;
 }

@@ -59,6 +59,12 @@ public class DivisionLabController {
                     respVO.setMgoGrade(divisionLab.getMgoGrade());
                     respVO.setCrFeRatio(divisionLab.getCrFeRatio());
                     respVO.setCr2o3FeoRatio(divisionLab.getCr2o3FeoRatio());
+                    respVO.setMu18(divisionLab.getMu18());
+                    respVO.setMu60(divisionLab.getMu60());
+                    respVO.setMu80(divisionLab.getMu80());
+                    respVO.setMu100(divisionLab.getMu100());
+                    respVO.setDepth(divisionLab.getDepth());
+                    respVO.setLithology(divisionLab.getLithology());
                     return respVO;
                 })
                 .collect(Collectors.toList());
@@ -97,6 +103,12 @@ public class DivisionLabController {
             respVO.setMgoGrade(divisionLab.getMgoGrade());
             respVO.setCrFeRatio(divisionLab.getCrFeRatio());
             respVO.setCr2o3FeoRatio(divisionLab.getCr2o3FeoRatio());
+            respVO.setMu18(divisionLab.getMu18());
+            respVO.setMu60(divisionLab.getMu60());
+            respVO.setMu80(divisionLab.getMu80());
+            respVO.setMu100(divisionLab.getMu100());
+            respVO.setDepth(divisionLab.getDepth());
+            respVO.setLithology(divisionLab.getLithology());
         });
         return success(respVO);
     }

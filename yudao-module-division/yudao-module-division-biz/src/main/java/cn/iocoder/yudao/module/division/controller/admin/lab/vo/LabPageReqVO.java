@@ -1,7 +1,6 @@
 package cn.iocoder.yudao.module.division.controller.admin.lab.vo;
 
 import lombok.*;
-import java.util.*;
 import io.swagger.v3.oas.annotations.media.Schema;
 import cn.iocoder.yudao.framework.common.pojo.PageParam;
 import java.math.BigDecimal;
@@ -106,7 +105,6 @@ public class LabPageReqVO extends PageParam {
     @Schema(description = "送样时间", example = "lab无")
     @DateTimeFormat(pattern = FORMAT_YEAR_MONTH_DAY_HOUR_MINUTE_SECOND)
     private LocalDateTime[] samplingTime;
-
 
     @Schema(description = "操作人员", example = "lab无")
     private String operator;
