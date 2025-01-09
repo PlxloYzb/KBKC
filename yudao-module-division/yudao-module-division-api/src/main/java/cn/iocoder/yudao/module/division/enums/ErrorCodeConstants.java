@@ -23,5 +23,5 @@ public interface ErrorCodeConstants {
 
     ErrorCode BENEFICIATION_NOT_EXISTS = new ErrorCode(1_001_000_008, "选矿每日数据不存在");
 
-
+    ErrorCode TEMPLATE_NOT_EXISTS = new ErrorCode(1_001_000_009, "Excel自动化不存在");
 }
