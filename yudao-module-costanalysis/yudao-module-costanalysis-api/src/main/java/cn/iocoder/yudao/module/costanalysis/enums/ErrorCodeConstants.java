@@ -22,4 +22,6 @@ public interface ErrorCodeConstants {
     ErrorCode WATER_SOURCE_PRODUCTION_DETAILS_NOT_EXISTS = new ErrorCode(1_001_000_008, "水源地生产分析不存在");
 
     ErrorCode NPOWER_PLANT_NOT_EXISTS = new ErrorCode(1_001_000_009, "电厂发电成本分析不存在");
+
+    ErrorCode EXCEL_FILE_NOT_EXISTS = new ErrorCode(1_002_000_001, "文件数据库不存在");
 }
